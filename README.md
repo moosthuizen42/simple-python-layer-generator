@@ -1,6 +1,6 @@
-# Build a Python layer for AWS Lambda
+# Simple Python layer generator
 
-This repo contains scripting to create a Python layer for use in AWS Lambda that contains all the dependencies required to run separately-deployed function code.
+Build the Python 3.12 layer that you need for AWS Lambda! This repo contains scripting to create a Python layer for use in AWS Lambda that contains all the dependencies required to run separately-deployed function code.
 
 The layer is built using a Docker image; the base image used is one published by AWS and closely resembles the Lambda runtime for Python 3.12 (which matches the most recent Lambda Python runtime at time of writing):
 
